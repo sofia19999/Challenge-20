@@ -2,10 +2,9 @@ import React from 'react';
 
 function AboutMe() {
   return (
-    <section>
-      <h2>About Me</h2>
-      <img src="your-image.jpg" alt="Your Name" />
-      <p>Hi, I’m Your Name, a web developer specializing in React, Node, and JavaScript.</p>
+    <section className="about-me" id="about">
+      <img src="/path-to-your-photo.jpg" alt="Your Name" />
+      <p>Hi, I'm Sofia Kaminski, a web developer specializing in modern web technologies like React and Node.js</p>
     </section>
   );
 }
