@@ -1,16 +1,29 @@
 {
-  "name": "your-project-name",
-  "version": "1.0.0",
+  "name": "solved",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",  // This starts your dev server
-    "build": "react-scripts build",  // This creates a production build
-    "test": "react-scripts test",  // This runs tests
-    "eject": "react-scripts eject"  // This ejects the configuration
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^17.0.2",  // React as a dependency
-    "react-dom": "^17.0.2",  // React DOM to render React components
-    "react-scripts": "4.0.3"  // React scripts for running, building, testing, etc.
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "vite": "^5.1.6"
   }
 }
